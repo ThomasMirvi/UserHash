@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
@@ -22,33 +23,43 @@ namespace Hash
                 try
                 {
                     XDocument doc = XDocument.Load(UsersFilePath);
-                    var users = doc.Descendants("User")
-                                   .Where(u => u.Element("Username").Value == txtUsername.Text
-                                               && u.Element("Password").Value == txtPassword.Text)
-                                   .ToList();
 
-                    if (users.Any())
+                    // Převod zadaného hesla na Base64
+                    string enteredPassword = Convert.ToBase64String(Encoding.UTF8.GetBytes(txtPassword.Text));
+
+                    var user = doc.Descendants("User")
+                                  .FirstOrDefault(u => u.Element("Username").Value == txtUsername.Text);
+
+                    if (user != null)
                     {
-                        var user = users.First();
-                        string role = user.Element("Role").Value;
-                        string username = user.Element("Username").Value;
+                        string storedHashedPassword = user.Element("HashedPassword").Value;
 
-                        if (role == "Admin")
+                        if (storedHashedPassword == enteredPassword)
                         {
-                            AdminForm adminForm = new AdminForm();
-                            adminForm.Show();
+                            string role = user.Element("Role").Value;
+                            string username = user.Element("Username").Value;
+
+                            if (role == "Admin")
+                            {
+                                AdminForm adminForm = new AdminForm();
+                                adminForm.Show();
+                            }
+                            else
+                            {
+                                UserForm userForm = new UserForm(username);
+                                userForm.Show();
+                            }
+
+                            this.Hide(); // Skryje přihlašovací formulář
                         }
                         else
                         {
-                            UserForm userForm = new UserForm(username);
-                            userForm.Show();
+                            MessageBox.Show("Neplatné přihlašovací údaje.");
                         }
-
-                        this.Hide(); // Skryje přihlašovací formulář
                     }
                     else
                     {
-                        MessageBox.Show("Neplatné přihlašovací údaje.");
+                        MessageBox.Show("Uživatel neexistuje.");
                     }
                 }
                 catch (Exception ex)
