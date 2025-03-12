@@ -30,17 +30,21 @@ namespace Hash
                     if (users.Any())
                     {
                         var user = users.First();
+                        string role = user.Element("Role").Value;
+                        string username = user.Element("Username").Value;
 
-                        if (user.Element("Role").Value == "Admin")
+                        if (role == "Admin")
                         {
                             AdminForm adminForm = new AdminForm();
                             adminForm.Show();
-                            this.Hide();
                         }
                         else
                         {
-                            MessageBox.Show("Uživatel nemá administrátorskou roli.");
+                            UserForm userForm = new UserForm(username);
+                            userForm.Show();
                         }
+
+                        this.Hide(); // Skryje přihlašovací formulář
                     }
                     else
                     {

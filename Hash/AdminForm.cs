@@ -109,5 +109,66 @@ namespace Hash
                 MessageBox.Show("Prosím vyberte uživatele a zadejte nové heslo.");
             }
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.OpenForms["LoginForm"].Show();
+        }
+
+
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddNewUser_Click(object sender, EventArgs e)
+        {
+            string newUsername = txtNewUser.Text.Trim();
+
+            if (string.IsNullOrEmpty(newUsername))
+            {
+                MessageBox.Show("Zadejte uživatelské jméno.");
+                return;
+            }
+
+            try
+            {
+                XDocument doc = XDocument.Load(UsersFilePath);
+
+                // Ověření, zda už uživatel existuje
+                var existingUser = doc.Descendants("User")
+                                      .FirstOrDefault(u => u.Element("Username").Value == newUsername);
+
+                if (existingUser != null)
+                {
+                    MessageBox.Show("Uživatel již existuje.");
+                    return;
+                }
+
+                // Vytvoření nového uživatele
+                XElement newUser = new XElement("User",
+                    new XElement("Username", newUsername),
+                    new XElement("Password", ""),  // Prázdné heslo
+                    new XElement("HashedPassword", ""),  // Prázdné heslo
+                    new XElement("Role", "User") // Standardní role
+                );
+
+                doc.Element("Users").Add(newUser);
+                doc.Save(UsersFilePath);
+
+                MessageBox.Show($"Uživatel {newUsername} byl založen. Nyní je možné nastavit heslo.");
+                txtNewUser.Clear();
+                LoadUsers(); // Obnoví listbox
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Chyba při přidávání uživatele: {ex.Message}");
+            }
+        }
+
+
     }
 }
