@@ -43,11 +43,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(120, 11);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(59, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(285, 29);
+            this.label1.Size = new System.Drawing.Size(360, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "Jste přihlášen jako admin";
             // 
@@ -63,19 +63,20 @@
             // 
             // txtNewPassword
             // 
+            this.txtNewPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.txtNewPassword.Location = new System.Drawing.Point(24, 315);
             this.txtNewPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtNewPassword.Name = "txtNewPassword";
-            this.txtNewPassword.Size = new System.Drawing.Size(239, 22);
+            this.txtNewPassword.Size = new System.Drawing.Size(239, 30);
             this.txtNewPassword.TabIndex = 3;
             // 
             // btnChangePassword
             // 
             this.btnChangePassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnChangePassword.Location = new System.Drawing.Point(276, 309);
+            this.btnChangePassword.Location = new System.Drawing.Point(276, 313);
             this.btnChangePassword.Margin = new System.Windows.Forms.Padding(4);
             this.btnChangePassword.Name = "btnChangePassword";
-            this.btnChangePassword.Size = new System.Drawing.Size(193, 31);
+            this.btnChangePassword.Size = new System.Drawing.Size(193, 36);
             this.btnChangePassword.TabIndex = 4;
             this.btnChangePassword.Text = "Nastavit heslo";
             this.btnChangePassword.UseVisualStyleBackColor = true;
@@ -127,17 +128,18 @@
             // 
             // txtNewUser
             // 
+            this.txtNewUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.txtNewUser.Location = new System.Drawing.Point(291, 134);
             this.txtNewUser.Margin = new System.Windows.Forms.Padding(4);
             this.txtNewUser.Name = "txtNewUser";
-            this.txtNewUser.Size = new System.Drawing.Size(169, 22);
+            this.txtNewUser.Size = new System.Drawing.Size(169, 30);
             this.txtNewUser.TabIndex = 8;
-            this.txtNewUser.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+
             // 
             // btnAddNewUser
             // 
             this.btnAddNewUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnAddNewUser.Location = new System.Drawing.Point(276, 164);
+            this.btnAddNewUser.Location = new System.Drawing.Point(276, 172);
             this.btnAddNewUser.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddNewUser.Name = "btnAddNewUser";
             this.btnAddNewUser.Size = new System.Drawing.Size(193, 57);

@@ -44,8 +44,9 @@ namespace Hash
                     if (userElement != null)
                     {
                         string newPassword = txtNewPassword.Text;
-                        userElement.Element("Password").Value = newPassword;
-                        userElement.Element("HashedPassword").Value = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(newPassword)); // Předpokládáme Base64 hash
+
+                        // Aktualizujeme pouze HashedPassword
+                        userElement.Element("HashedPassword").Value = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(newPassword));
 
                         doc.Save(UsersFilePath);
                         MessageBox.Show("Heslo bylo úspěšně změněno.");
@@ -65,7 +66,6 @@ namespace Hash
             {
                 MessageBox.Show($"Chyba při změně hesla: {ex.Message}");
             }
-        
         }
     }
 }

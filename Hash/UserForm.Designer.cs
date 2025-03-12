@@ -94,7 +94,7 @@
             // btnChangePassword
             // 
             this.btnChangePassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnChangePassword.Location = new System.Drawing.Point(276, 247);
+            this.btnChangePassword.Location = new System.Drawing.Point(276, 254);
             this.btnChangePassword.Margin = new System.Windows.Forms.Padding(4);
             this.btnChangePassword.Name = "btnChangePassword";
             this.btnChangePassword.Size = new System.Drawing.Size(193, 31);
@@ -105,10 +105,11 @@
             // 
             // txtNewPassword
             // 
+            this.txtNewPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.txtNewPassword.Location = new System.Drawing.Point(13, 253);
             this.txtNewPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtNewPassword.Name = "txtNewPassword";
-            this.txtNewPassword.Size = new System.Drawing.Size(239, 22);
+            this.txtNewPassword.Size = new System.Drawing.Size(239, 30);
             this.txtNewPassword.TabIndex = 7;
             // 
             // UserForm

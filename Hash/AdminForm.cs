@@ -50,8 +50,6 @@ namespace Hash
             }
         }
 
-        
-
         // Obsluhování výběru v ListBox (Pokud chcete zobrazit podrobnosti o uživateli)
         private void lstUsers_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -84,10 +82,9 @@ namespace Hash
 
                     if (userElement != null)
                     {
-                        // Nastavíme nové heslo
+                        // Nastavíme nové heslo jako Base64 hash
                         string newPassword = txtNewPassword.Text;
-                        userElement.Element("Password").Value = newPassword;
-                        userElement.Element("HashedPassword").Value = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(newPassword)); // Předpokládáme, že HashedPassword je Base64 enkódovaná
+                        userElement.Element("HashedPassword").Value = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(newPassword)); // Předpokládáme Base64 hash hesla
 
                         // Uložíme změny zpět do XML souboru
                         doc.Save(UsersFilePath);
@@ -114,13 +111,6 @@ namespace Hash
         {
             this.Close();
             Application.OpenForms["LoginForm"].Show();
-        }
-
-
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btnAddNewUser_Click(object sender, EventArgs e)
@@ -150,8 +140,7 @@ namespace Hash
                 // Vytvoření nového uživatele
                 XElement newUser = new XElement("User",
                     new XElement("Username", newUsername),
-                    new XElement("Password", ""),  // Prázdné heslo
-                    new XElement("HashedPassword", ""),  // Prázdné heslo
+                    new XElement("HashedPassword", ""),  // Prázdné heslo (Hash)
                     new XElement("Role", "User") // Standardní role
                 );
 
@@ -168,7 +157,5 @@ namespace Hash
                 MessageBox.Show($"Chyba při přidávání uživatele: {ex.Message}");
             }
         }
-
-
     }
 }
