@@ -1,14 +1,14 @@
 # User Hash
 
-Aplikace pro správu uživatelů v rámci administrace, která umožňuje přidávat nové uživatele, měnit jejich hesla a upravovat jejich role. Uživatelé a jejich data jsou uloženy v XML souboru.
+Aplikace pro správu uživatelů v rámci administrace, která umožňuje přidávat nové uživatele a měnit jejich hesla. Uživatelé a jejich data jsou uloženy v XML souboru.
 
 ## Funkce aplikace
 
 - **Přidání nového uživatele**: Můžete přidat nového uživatele, který bude mít výchozí roli `User` a prázdné heslo (hash hesla bude nastaven až při změně hesla).
 - **Změna hesla**: Umožňuje změnit heslo pro vybraného uživatele. Heslo je bezpečně uloženo jako Base64 hash.
-- **Zobrazení uživatelů**: Seznam uživatelů je zobrazen v `ListBox`, kde jsou uvedeny uživatelské jméno a jejich role.
-- **Výběr uživatele**: Po výběru uživatele v seznamu můžete zobrazit jeho údaje (např. uživatelské jméno a roli).
-- **Odhlášení**: Umožňuje administrátorovi se odhlásit a přejít zpět na přihlašovací formulář.
+- **Zobrazení uživatelů**: Seznam uživatelů je zobrazen v `ListBox`, přístup k němu má pouze administrátor.
+- **Výběr uživatele**: Po výběru uživatele můžete měnit jeho heslo.
+- **Odhlášení**: Umožňuje přepínat uživatele.
 
 ## Struktura XML souboru
 
@@ -28,3 +28,15 @@ Aplikace používá XML soubor pro uložení uživatelských dat. Struktura soub
     <Role>User</Role>
   </User>
 </Users>
+```
+
+## Vysvětlení polí
+
+- **Username**: Uživatelské jméno.
+- **HashedPassword**: Heslo uživatele, uložené jako Base64 hash.
+- **Role**: Role uživatele (`User`, `Admin`).
+
+## Požadavky
+
+- .NET Framework (Windows Forms aplikace)
+- Visual Studio nebo jiný IDE pro práci s .NET aplikacemi
