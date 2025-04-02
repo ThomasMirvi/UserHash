@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tmirv\\Desktop\\Hash\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|C:\\Users\\tmirv\\Desktop\\Hash\\hash\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|C:\\Users\\tmirv\\Desktop\\Hash\\hash\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|c:\\users\\tmirv\\desktop\\hash\\hash\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|C:\\Users\\tmirv\\Desktop\\Hash\\hash\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|C:\\Users\\tmirv\\Desktop\\Hash\\hash\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|C:\\Users\\tmirv\\Desktop\\Hash\\hash\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|C:\\Users\\tmirv\\Desktop\\Hash\\hash\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|C:\\Users\\tmirv\\Desktop\\Hash\\hash\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|C:\\Users\\tmirv\\Desktop\\Hash\\hash\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|C:\\Users\\tmirv\\Desktop\\Hash\\hash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D9914E-7A85-454E-9A37-CC5D8C8E02BB}|Hash\\Hash.csproj|solutionrelative:hash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs [N\u00E1vrh]",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Hash\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\LoginForm.cs [N\u00E1vrh]",
+              "RelativeToolTip": "Hash\\LoginForm.cs [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:33:16.208Z",
+              "IsPinned": true,
+              "EditorCaption": " [N\u00E1vrh]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Hash\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\LoginForm.cs",
+              "RelativeToolTip": "Hash\\LoginForm.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:38:41.35Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminForm.cs [N\u00E1vrh]",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\AdminForm.cs",
+              "RelativeDocumentMoniker": "Hash\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\AdminForm.cs [N\u00E1vrh]",
+              "RelativeToolTip": "Hash\\AdminForm.cs [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:37:50.682Z",
+              "IsPinned": true,
+              "EditorCaption": " [N\u00E1vrh]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\AdminForm.cs",
+              "RelativeDocumentMoniker": "Hash\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\AdminForm.cs",
+              "RelativeToolTip": "Hash\\AdminForm.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAwKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:03:06.062Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserForm.cs [N\u00E1vrh]",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\UserForm.cs",
+              "RelativeDocumentMoniker": "Hash\\UserForm.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\UserForm.cs [N\u00E1vrh]",
+              "RelativeToolTip": "Hash\\UserForm.cs [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:07:44.91Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\UserForm.cs",
+              "RelativeDocumentMoniker": "Hash\\UserForm.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\UserForm.cs",
+              "RelativeToolTip": "Hash\\UserForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:09:00.164Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\Program.cs",
+              "RelativeDocumentMoniker": "Hash\\Program.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\Program.cs",
+              "RelativeToolTip": "Hash\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:47:19.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\AdminForm.Designer.cs",
+              "RelativeDocumentMoniker": "Hash\\AdminForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\AdminForm.Designer.cs",
+              "RelativeToolTip": "Hash\\AdminForm.Designer.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAQwIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:31:56.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\User.cs",
+              "RelativeDocumentMoniker": "Hash\\User.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\User.cs",
+              "RelativeToolTip": "Hash\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:38:25.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\UserManager.cs",
+              "RelativeDocumentMoniker": "Hash\\UserManager.cs",
+              "ToolTip": "C:\\Users\\tmirv\\Desktop\\Hash\\Hash\\UserManager.cs",
+              "RelativeToolTip": "Hash\\UserManager.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvx8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T10:43:23.752Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

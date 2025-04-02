@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <User>
+    <Username>admin</Username>
+    <HashedPassword>YWRtaW4=</HashedPassword>
+    <Role>Admin</Role>
+  </User>
+  <User>
+    <Username>user</Username>
+    <HashedPassword>dXNlcg==</HashedPassword>
+    <Role>User</Role>
+  </User>
+  <User>
+    <Username>pepa</Username>
+    <HashedPassword>YWFh</HashedPassword>
+    <Role>User</Role>
+  </User>
+  <User>
+    <Username>tomas</Username>
+    <HashedPassword></HashedPassword>
+    <Role>User</Role>
+  </User>
+</Users>
